@@ -1,5 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Urbanist:wght@200&display=swap');
  
 html {
-    font-family: ;
+    font-family: Raleway;
+}
+
+nav {
+    display: flex;
+    flex: left;
+}
+
+/*HERO SECTION*/
+.hero {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+#hero-image {
+    max-width: 300px;
+    border-radius: 120px 120px 0 0;
+    display: flex;
+    justify-content: left;
+}
+
+/*SOCIAL LINKS*/
+.social-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+i {
+
+}
+
+.work {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    max-width: 300px;
+}
+
+/*CONTACT FORM*/
+#contactForm {
+    padding: 25px;
+
+}
+
+input {
+    width: 90%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+}
+
+textarea {
+    border: none;
+}
+
+label {
+    text-align: left;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #1ac0f3;
+    width: 100%;
+    border: 0;
+    border-radius:5px;
+    color: aliceblue;
+}
+
+.button:hover {
+    background-color: #03a7da;
 }
