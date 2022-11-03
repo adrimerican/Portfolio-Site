@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--API key for flaticons d8ba8e6b139c613aa5858333da8a5c2b0091903e-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,9 +14,9 @@
 </head>
 <body>
   <!--NAVAGATION-->  
-  <nav class="nav">
-    <ul class="nav">
-        <li>LOGO</li>
+  <nav class="navigation">
+    <ul class="navigation">
+        <li><i class="fa-solid fa-pizza-slice"></i></li>
         <li>About</li>
         <li>Projects</li>
         <li>Contact Me</li>
@@ -25,7 +26,7 @@
   <!--HERO SECTION-->
   <section class="hero">
     <div class="hero-info">
-    <h1 class="title">FrondEnd Developer</h1>
+    <h1 class="title">FrontEnd Developer</h1>
     <p class="hook-line">An Aspiring young frontend developer who has worked in the industry since 2020</p>
     </div>
     <img id="hero-image" src="/images/mewithcat.jpg">
@@ -33,6 +34,7 @@
 
   <!--SOCIAL LINKS-->
   <section class="social-links">
+   
     <div class="container linked-in">
         <i class="fa-brands fa-linkedin"></i>
         <p>LinkedIn is the go to social media for any professional wanting to grow their network and connections. Check mine out to see what I've been up to recently</p>
@@ -44,23 +46,25 @@
     <!--<div class="social-link stack-overflow">
         <i class="fa-brands fa-stack-overflow"></i>
         <p></p>
-    </div>-->
+    </div>--> 
+    <h2 class="vertical">Social Networks</h2>
   </section>
 
   <!--LATEST WORK-->
   <section class="work">
+    <h2 class="vertical">Projects I've worked on</h2>
     <div class="container">
-        <img src="">
+        <img id="project-image" src="/images/art.jpg">
         <h3>NAME OF WORK</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque nemo dolores nostrum ad consequuntur inventore commodi delectus officiis accusantium!</p>
     </div>
     <div class="container">
-        <img src="">
+        <img id="project-image" src="/images/rivercam.webp">
         <h3>NAME OF WORK</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque nemo dolores nostrum ad consequuntur inventore commodi delectus officiis accusantium!</p>
     </div>
     <div class="container">
-        <img src="">
+        <img id="project-image" src="/images/kayak.webp">
         <h3>NAME OF WORK</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At neque nemo dolores nostrum ad consequuntur inventore commodi delectus officiis accusantium!</p>
     </div>
@@ -69,6 +73,7 @@
   <!--CONTACT ME-->
   <section class="contact-me">
     <h2 class="form-title">Contact Me</h2>
+    <div class="form">
     <form id="contactForm" action="">
         <h1>Get in Touch</h1>
         <label for="firstName">First Name</label>
@@ -89,7 +94,8 @@
 
         <input type="submit" value="Send a message"  class="button"/>
       </form>
+    </div>
   </section>
-  <footer></footer>
+  <footer>AdriCorp 2022</footer>
 </body>
 </html>
